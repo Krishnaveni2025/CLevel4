@@ -2,8 +2,8 @@
 #include<stdio.h>
 int main()
 {
-int num;
+char num;
 printf("Enter a number: ");
-scanf("%d",&num);
-printf("It's ASCII value is : %c",num);
+scanf("%c",&num);
+printf("It's ASCII value is : %d",num);
 }
